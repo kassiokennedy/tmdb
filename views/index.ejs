@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Filmes Encontrados</title>
+  </head>
+  <body>
+    <h2>Filmes Encontrados</h1>
+    <form action="/" method="get">
+      <input
+        type="text"
+        name="movieName"
+        placeholder="Digite o nome do filme"
+      />
+      <button type="submit">Buscar</button>
+    </form>
+    <ul>
+      <% for (let i = 0; i < filmes.length; i++) { %>
+      <li>
+        <h2><%= filmes[i].title %></h2>
+        <p>Data de lançamento: <%= filmes[i].release_date.substring(0, 4) %></p>
+        <p>Sinopse: <%= filmes[i].overview %></p>
+      </li>
+      <% } %>
+    </ul>
+  </body>
+</html>

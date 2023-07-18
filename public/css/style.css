@@ -1,0 +1,53 @@
+.title {
+  /* Titulo do texto*/
+  font: 700 1.31rem "Poppins", sans-serif;
+  color: var(--title-color);
+  -webkit-font-smoothing: auto;
+}
+
+h1,
+h2,
+h3,
+button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  text-align: left;
+}
+text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ------------------------------------------------ */
+
+body {
+  background-color: whitesmoke;
+}
+img {
+  width: 1000px; /* Defina a largura desejada */
+  height: auto; /* A altura será ajustada automaticamente para manter a proporção original */
+}
+head {
+  background-color: yellowgreen;
+}
+/* ------------------------------------------------ */
+.tab button {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  /*background-color: #ddd;*/
+  background: whitesmoke;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #fcc071;
+}
