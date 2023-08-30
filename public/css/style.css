@@ -4,10 +4,12 @@
   color: var(--title-color);
   -webkit-font-smoothing: auto;
 }
-
+/* https://www.youtube.com/watch?v=lsxBlQWNdUQ */
 h1,
 h2,
 h3,
+li,
+ul,
 button {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,32 +24,43 @@ text {
 body {
   background-color: whitesmoke;
 }
-img {
-  width: 1000px; /* Defina a largura desejada */
-  height: auto; /* A altura será ajustada automaticamente para manter a proporção original */
-}
+
 head {
   background-color: yellowgreen;
 }
 /* ------------------------------------------------ */
-.tab button {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
+.Titulo {
+  background-color: rgb(208, 79, 255);
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
-/* Change background color of buttons on hover */
-.tab button:hover {
-  /*background-color: #ddd;*/
-  background: whitesmoke;
+.Form {
+  background-color: rgb(84, 46, 237);
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #fcc071;
+.ul {
+  background-color: rgb(209, 113, 113);
+  border: 5px;
+  border-radius: 5px;
 }
+.li {
+  background-color: rgb(196, 209, 113);
+  padding: 5px;
+  border-radius: 5px;
+  border: 5px solid;
+  margin: 3px;
+}
+.Pages {
+  background-color: rgb(209, 113, 203);
+  text-align: center;
+  padding: 1px;
+  border-radius: 5px;
+  border: 5px solid;
+}
+/* ------------------------------------------------ */
